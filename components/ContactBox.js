@@ -5,10 +5,11 @@ const ContactBox = () => {
     <div className="contact-box">
       <div className="contact-title">
         <h3 className="wow fadeInUp" data-wow-delay=".3s">
-          Need Help For Project!
+          Precisa de Nossos Serviços?
         </h3>
         <p className="wow fadeInUp" data-wow-delay=".5s">
-          We are ready to help your next projects, let’s work together
+          Estamos aqui para ajudar. Preencha o formulário abaixo
+           e entraremos em contato o mais rápido possível.
         </p>
       </div>
       <div className="contact-form-items">
@@ -16,7 +17,7 @@ const ContactBox = () => {
           <div className="row g-3">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
               <div className="form-clt">
-                <input type="text" name="name" id="name" placeholder="Name" />
+                <input type="text" name="name" id="name" placeholder="Nome" />
                 <div className="icon">
                   <i className="far fa-user" />
                 </div>
@@ -35,36 +36,20 @@ const ContactBox = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-lg-12 wow fadeInUp position-relative z-3"
-              data-wow-delay=".3s"
-            >
-              <div className="form-clt">
-                <NiceSelect
-                  items={[
-                    { id: 1, value: "Default sorting" },
-                    { id: 2, value: "Sort by popularity" },
-                    { id: 3, value: "Sort by average rating" },
-                    { id: 4, value: "Sort by latest" },
-                  ]}
-                  customClass=""
-                />
-              </div>
-            </div>
             <div className="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
               <div className="form-clt">
                 <textarea
                   name="message"
                   id="message"
-                  placeholder="Write Your Message"
+                  placeholder="Escreva A Tua Mensagem Aqui"
                   defaultValue={""}
                 />
               </div>
             </div>
             <div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
-              <button type="submit" className="theme-btn theme-btn-2">
+              <button type="submit" className="theme-btn">
                 <span>
-                  Send Us Messages
+                Enviar
                   <i className="fas fa-chevron-right" />
                 </span>
               </button>

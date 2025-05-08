@@ -10,7 +10,7 @@ const Menus = ({ single, menus }) => {
         { id: 2, href: "shows", title: "Shows" },
         { id: 3, href: "pricing", title: "Pricing" },
         { id: 4, href: "team", title: "Team" },
-        { id: 5, href: "blog", title: "Blog" },
+        { id: 5, href: "news", title: "Blog" },
       ];
   return (
     <nav id="mobile-menu" className="d-none d-xl-block">
@@ -132,52 +132,52 @@ const Menus = ({ single, menus }) => {
                     <div className="homemenu-thumb">
                       <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">Sucursal 01</h4>
+                      <h4 className="homemenu-title">Sucursal De Boane</h4>
                     </div>
                   </div>
                   <div className="col-lg-3  homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-2.jpg" alt="img" />
                       <div className="demo-button">
-                        <Link href="index+-2" className="theme-btn">
+                        <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">Sucursal 02</h4>
+                      <h4 className="homemenu-title">Sucursal De Kumbeza</h4>
                     </div>
                   </div>
                   <div className="col-lg-3 homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-3.jpg" alt="img" />
                       <div className="demo-button">
-                        <Link href="index+-3" className="theme-btn">
+                        <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">Sucursal 03</h4>
+                      <h4 className="homemenu-title">Sucursal De Mavoko</h4>
                     </div>
                   </div>
                   <div className="col-lg-3 homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-4.jpg" alt="img" />
                       <div className="demo-button">
-                        <Link href="index+-4" className="theme-btn">
+                        <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">Sucursal 04</h4>
+                      <h4 className="homemenu-title">Sucursal De Marracuene</h4>
                     </div>
                   </div>
                 </div>
@@ -191,16 +191,16 @@ const Menus = ({ single, menus }) => {
             </Link>
             <ul className="submenu">
               <li>
-                <Link href="/">Sucursal 01</Link>
+                <Link href="Sucursal">Sucursal De Boane</Link>
               </li>
               <li>
-                <Link href="index+-2">Sucursal 02</Link>
+                <Link href="Sucursal">Sucursal De Kumbeza</Link>
               </li>
               <li>
-                <Link href="index+-3">Sucursal 03</Link>
+                <Link href="Sucursal">Sucursal De Mavoko</Link>
               </li>
               <li>
-                <Link href="index+-4">Sucursal 04</Link>
+                <Link href="Sucursal">Sucursal De Marracuene</Link>
               </li>
             </ul>
           </li>
@@ -208,13 +208,13 @@ const Menus = ({ single, menus }) => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="about+">Sobre Nós</Link>
+            <Link href="about">Sobre Nós</Link>
           </li>
           <li>
-            <Link href="+">Serviços</Link>
+            <Link href="service">Serviços</Link>
           </li>
           <li>
-            <Link href="blog">Blog</Link>
+            <Link href="news">Blog</Link>
           </li>
           <li>
             <Link href="contact">Contactos</Link>
@@ -240,11 +240,11 @@ export const MobileMenu = ({ menus, single }) => {
   const singleMenus = menus
     ? menus
     : [
-        { id: 1, href: "about+", title: "About+" },
+        { id: 1, href: "about", title: "About" },
         { id: 2, href: "shows", title: "Shows" },
         { id: 3, href: "pricing", title: "Pricing" },
         { id: 4, href: "team", title: "Team" },
-        { id: 5, href: "blog", title: "Blog" },
+        { id: 5, href: "news", title: "Blog" },
       ];
   return (
     <nav className="mean-nav d-block d-xl-none">
@@ -264,19 +264,19 @@ export const MobileMenu = ({ menus, single }) => {
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")} className="submenu" style={activeLi("home")}>
             <li>
               <Link href="/" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
-      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal 01</Link>
+      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Boane</Link>
             </li>
             <li>
               <Link href="index+-2" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
-      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal 02</Link>
+      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Kumbeza</Link>
             </li>
             <li>
               <Link href="index+-3" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
-      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal 03</Link>
+      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Mavoko</Link>
             </li>
             <li>
               <Link href="index+-4" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
-      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal 04</Link>
+      onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Marracuene</Link>
             </li>
           </ul>
           <a
@@ -307,15 +307,15 @@ export const MobileMenu = ({ menus, single }) => {
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}> Home</Link>
             </li>
             <li>
-              <Link href="about+" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="about" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sobre Nós</Link>
             </li>
             <li>
-              <Link href="service+" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="service" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Serviços</Link>
             </li>
             <li>
-              <Link href="blog" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="news" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Blog</Link>
             </li>
             <li className="mean-last">

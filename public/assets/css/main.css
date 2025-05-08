@@ -358,6 +358,7 @@ p {
   }
 }
 .preloader .animation-preloader .txt-loading {
+  letter-spacing: 0.0em; /* Adjust the spacing as needed */
   font: bold 5em "Inter", sans-serif, "Inter", sans-serif;
   text-align: center;
   -webkit-user-select: none;

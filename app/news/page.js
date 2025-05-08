@@ -5,7 +5,6 @@ import Link from "next/link";
 const page = () => {
   return (
     <NetBandLayout>
-      <Breadcrumb pageTitle={"standard blog"} />
       <section className="blog-wrapper news-wrapper section-padding border-bottom">
         <div className="container">
           <div className="news-area">
@@ -19,42 +18,34 @@ const page = () => {
                         backgroundImage: 'url("assets/img/news/post-1.jpg")',
                       }}
                     >
-                      <div className="post-date">
+                      <div className="post-date" style={{ marginLeft : "490px" }}>
                         <h4>
-                          25 <br />
-                          <span>Dec</span>
+                          Economia
                         </h4>
                       </div>
                     </div>
                     <div className="post-content">
                       <div className="post-meta">
                         <span>
-                          <i className="fal fa-comments" />
-                          35 Comments
-                        </span>
-                        <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          09 de Maio 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          The whimsically named Egg Canvas brainchesiko
+                        5 Dicas Para Economizar Água
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                      Aprenda Maneiras Simples E Eficazes
+                      De Reduzir O Consumo De Água No Dia A Dia. 
                       </p>
                       <Link
                         href="news-details"
                         className="theme-btn mt-4 line-height"
                       >
                         <span>
-                          READ MORE <i className="fas fa-chevron-right" />
+                          LEIA MAIS <i className="fas fa-chevron-right" />
                         </span>
                       </Link>
                     </div>
@@ -66,42 +57,34 @@ const page = () => {
                         backgroundImage: 'url("assets/img/news/post-2.jpg")',
                       }}
                     >
-                      <div className="post-date">
+                      <div className="post-date" style={{ marginLeft : "490px" }}>
                         <h4>
-                          15 <br />
-                          <span>Dec</span>
+                        Meio Ambiente
                         </h4>
                       </div>
                     </div>
                     <div className="post-content">
                       <div className="post-meta">
                         <span>
-                          <i className="fal fa-comments" />
-                          35 Comments
-                        </span>
-                        <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          09 de Maio 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          The whimsically named Egg Canvas brainchesiko
+                        Como Receber Descontos Na Factura De Água Todos Meses
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                      onfira Estratégias Práticas Para Reduzir 
+                      O Valor Da Sua Fatura De Água Todos Os Meses
                       </p>
                       <Link
                         href="news-details"
                         className="theme-btn mt-4 line-height"
                       >
                         <span>
-                          READ MORE <i className="fas fa-chevron-right" />
+                          LEIA MAIS <i className="fas fa-chevron-right" />
                         </span>
                       </Link>
                     </div>
@@ -113,70 +96,39 @@ const page = () => {
                         backgroundImage: 'url("assets/img/news/post-3.jpg")',
                       }}
                     >
-                      <div className="post-date">
+                      <div className="post-date" style={{ marginLeft : "490px" }}>
                         <h4>
-                          11 <br />
-                          <span>Dec</span>
+                        Actividades
                         </h4>
                       </div>
                     </div>
                     <div className="post-content">
                       <div className="post-meta">
                         <span>
-                          <i className="fal fa-comments" />
-                          35 Comments
-                        </span>
-                        <span>
                           <i className="fal fa-calendar-alt" />
-                          24th March 2024
+                          09 de Maio 2025
                         </span>
                       </div>
                       <h2>
                         <Link href="news-details">
-                          The whimsically named Egg Canvas brainchesiko
+                        Como Funciona O Sistema De Água Canalizada
                         </Link>
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered teration in some
-                        form, by injected humour, or randomised words which
-                        don't look even slight believable. If you are going to
-                        use a passage of Lorem Ipsum.
+                      Entenda Todo O Processo, Desde A Captação Da
+                       Água Até Ela Chegar Tratada À Torneira Da Sua Casa.
                       </p>
                       <Link
                         href="news-details"
                         className="theme-btn mt-4 line-height"
                       >
                         <span>
-                          READ MORE <i className="fas fa-chevron-right" />
+                          LEIA MAIS <i className="fas fa-chevron-right" />
                         </span>
                       </Link>
                     </div>
                   </div>
                   <div className="single-blog-post quote-post format-quote">
-                    <div className="post-content text-white bg-cover">
-                      <div className="quote-content">
-                        <div className="icon">
-                          <i className="fas fa-quote-left" />
-                        </div>
-                        <div className="quote-text">
-                          <h2>
-                            Excepteur sint occaecat cupida tat non proident,
-                            sunt in.
-                          </h2>
-                          <div className="post-meta">
-                            <span>
-                              <i className="fal fa-comments" />
-                              35 Comments
-                            </span>
-                            <span>
-                              <i className="fal fa-calendar-alt" />
-                              24th March 2024
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="page-nav-wrap mt-5 text-center">
@@ -198,17 +150,17 @@ const page = () => {
                     </li>
                     <li>
                       <a className="page-numbers" href="#">
-                        ..
+                        03
                       </a>
                     </li>
                     <li>
                       <a className="page-numbers" href="#">
-                        10
+                        04
                       </a>
                     </li>
                     <li>
                       <a className="page-numbers" href="#">
-                        11
+                        ...
                       </a>
                     </li>
                     <li>

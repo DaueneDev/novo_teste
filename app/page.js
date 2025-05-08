@@ -71,7 +71,7 @@ const page = () => {
                   <h3>Linha Do Cliente Disponível</h3>
                 </div>
                 <div className="icon">
-                  <i className="fa fa-phone fa-xs " />
+                  <i className="flaticon-support " />
                 </div>
               </div>
             </div>
@@ -216,8 +216,8 @@ const page = () => {
           <div className="section-title text-center">
             <span className="wow fadeInUp">Nossa Equipe</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Conheça Alguns Membros  <br />
-              Da Gestão
+              Conheça Os Departamentos  <br />
+              Da Empresa
             </h2>
           </div>
           <div className="team-wrapper">
@@ -229,29 +229,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/01.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Departamento De</p>
                     <h4>
-                      <Link href="team-detaills">Nelson Khumayo</Link>
+                      <Link href="team-detaills">Recursos Humanos</Link>
                     </h4>
-                    <p>Director Geral</p>
                   </div>
                 </div>
               </div>
@@ -262,29 +245,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/02.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Departamento</p>
                     <h4>
-                      <Link href="team-detaills">Manecas Timoteo</Link>
+                      <Link href="team-detaills">Jurídico</Link>
                     </h4>
-                    <p>Gestor Da Empresa</p>
                   </div>
                 </div>
               </div>
@@ -295,29 +261,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/03.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                      <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Departamento</p>
                     <h4>
-                      <Link href="team-detaills">Carolina Joaquina</Link>
+                      <Link href="team-detaills">Comercial</Link>
                     </h4>
-                    <p>Gestora De Clientes</p>
                   </div>
                 </div>
               </div>
@@ -328,29 +277,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/04.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                      <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Departamento</p>
                     <h4>
-                      <Link href="team-detaills">Marta Joaquina</Link>
+                      <Link href="team-detaills">Técnico</Link>
                     </h4>
-                    <p>Gestora de RH</p>
                   </div>
                 </div>
               </div>
@@ -369,29 +301,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/01.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Departamento De</p>
                     <h4>
-                      <Link href="team-detaills">Faruque Jorge</Link>
+                      <Link href="team-detaills">Logística</Link>
                     </h4>
-                    <p>Gestor De Projectos</p>
                   </div>
                 </div>
               </div>
@@ -402,29 +317,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/02.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Departamento</p>
                     <h4>
-                      <Link href="team-detaills">Americo Santos</Link>
+                      <Link href="team-detaills">Financeiro</Link>
                     </h4>
-                    <p>Team Leader</p>
                   </div>
                 </div>
               </div>
@@ -435,62 +333,12 @@ const page = () => {
                 <div className="single-team-items">
                   <div className="team-image">
                     <img src="assets/img/team/03.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                      <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="team-content text-center">
+                  <p>Depertamento De</p>
                     <h4>
-                      <Link href="team-detaills">Abigail Baruque</Link>
+                      <Link href="team-detaills">Projectos</Link>
                     </h4>
-                    <p>Gestora De Armazem</p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-                data-wow-delay=".9s"
-              >
-                <div className="single-team-items">
-                  <div className="team-image">
-                    <img src="assets/img/team/04.jpg" alt="team-img" />
-                    <div className="social-profile">
-                      <span className="plus-btn">
-                        <i className="fas fa-share-alt" />
-                      </span>
-                      <ul>
-                      <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-whatsapp" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="team-content text-center">
-                    <h4>
-                      <Link href="team-detaills">Jose Barros</Link>
-                    </h4>
-                    <p>Team Leader</p>
                   </div>
                 </div>
               </div>

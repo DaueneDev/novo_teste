@@ -6,11 +6,11 @@ const BlogSideBar = () => {
       <div className="main-sidebar">
         <div className="single-sidebar-widget">
           <div className="wid-title">
-            <h3>Search</h3>
+            <h3>Pesquisar</h3>
           </div>
           <div className="search_widget">
             <form action="#">
-              <input type="text" placeholder="Keywords here...." />
+              <input type="text" placeholder="Digite a palavra..." />
               <button type="submit">
                 <i className="fal fa-search" />
               </button>
@@ -19,7 +19,7 @@ const BlogSideBar = () => {
         </div>
         <div className="single-sidebar-widget">
           <div className="wid-title">
-            <h3>Popular Feeds</h3>
+            <h3>Artigos Populares</h3>
           </div>
           <div className="popular-posts">
             <div className="single-post-item">
@@ -32,12 +32,12 @@ const BlogSideBar = () => {
               <div className="post-content">
                 <h5>
                   <Link href="news-details">
-                    Keep your business safe and ensure high
+                  5 Dicas Para Economizar Água
                   </Link>
                 </h5>
                 <div className="post-date">
                   <i className="far fa-calendar-alt" />
-                  24th March 2024
+                  03 de Maio de 2025
                 </div>
               </div>
             </div>
@@ -51,12 +51,12 @@ const BlogSideBar = () => {
               <div className="post-content">
                 <h5>
                   <Link href="news-details">
-                    We’ve been a strategy thought leader for nearly
+                  Como Receber Descontos Na Factura De Água Todos Meses
                   </Link>
                 </h5>
                 <div className="post-date">
                   <i className="far fa-calendar-alt" />
-                  25th March 2024
+                  05 de Maio de 2025
                 </div>
               </div>
             </div>
@@ -70,12 +70,12 @@ const BlogSideBar = () => {
               <div className="post-content">
                 <h5>
                   <Link href="news-details">
-                    This week’s top stories and about It
+                  Como Funciona O Sistema De Água Canalizada
                   </Link>
                 </h5>
                 <div className="post-date">
                   <i className="far fa-calendar-alt" />
-                  26th March 2024
+                  09 de Maio de 2025
                 </div>
               </div>
             </div>
@@ -83,38 +83,28 @@ const BlogSideBar = () => {
         </div>
         <div className="single-sidebar-widget">
           <div className="wid-title">
-            <h3>Categories</h3>
+            <h3>Categorias</h3>
           </div>
           <div className="widget_categories">
             <ul>
               <li>
                 <Link href="news">
-                  Cloud Service <span>23</span>
+                  Actividades <span>13</span>
                 </Link>
               </li>
               <li>
                 <Link href="news">
-                  Web Development <span>24</span>
+                  Economia <span>09</span>
                 </Link>
               </li>
               <li>
                 <Link href="news">
-                  Ui/Ux Designing <span>11</span>
+                  Meio Ambiente <span>11</span>
                 </Link>
               </li>
               <li>
                 <Link href="news">
-                  IT Management <span>05</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="news">
-                  Data Visualization <span>06</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="news">
-                  Security System <span>10</span>
+                  Projectos <span>05</span>
                 </Link>
               </li>
             </ul>
@@ -122,14 +112,11 @@ const BlogSideBar = () => {
         </div>
         <div className="single-sidebar-widget">
           <div className="wid-title">
-            <h3>Never Miss News</h3>
+            <h3>Redes Sociais</h3>
           </div>
           <div className="social-link">
             <a href="#">
               <i className="fab fa-facebook-f" />
-            </a>
-            <a href="#">
-              <i className="fab fa-twitter" />
             </a>
             <a href="#">
               <i className="fab fa-instagram" />
@@ -138,25 +125,11 @@ const BlogSideBar = () => {
               <i className="fab fa-linkedin-in" />
             </a>
             <a href="#">
-              <i className="fab fa-youtube" />
+              <i className="fab fa-whatsapp" />
             </a>
           </div>
         </div>
-        <div className="single-sidebar-widget">
-          <div className="wid-title">
-            <h3>Popular Tags</h3>
-          </div>
-          <div className="tagcloud">
-            <Link href="news">IT Technology</Link>
-            <Link href="news-details">Software</Link>
-            <Link href="news-details">Design</Link>
-            <Link href="news-details">Service</Link>
-            <Link href="news-details">Development</Link>
-            <Link href="news-details">Digital</Link>
-            <Link href="news-details">Cyber</Link>
-          </div>
-        </div>
-      </div>
+       </div>
     </div>
   );
 };
