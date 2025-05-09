@@ -88,7 +88,7 @@ const Home1 = () => {
                       data-duration=".1s"
                     >
                       <a
-                        href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
+                        href="https://www.youtube.com/watch?v=cNrTGJiDPY8"
                         className="video-btn ripple video-popup"
                       >
                         <i className="fas fa-play" />
@@ -159,7 +159,7 @@ const Home1 = () => {
                       data-duration=".1s"
                     >
                       <a
-                        href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
+                        href="https://https://www.youtube.com/watch?v=cNrTGJiDPY8"
                         className="video-btn ripple video-popup"
                       >
                         <i className="fas fa-play" />
