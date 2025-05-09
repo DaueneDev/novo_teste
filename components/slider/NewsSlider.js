@@ -12,7 +12,7 @@ const NewsSlider = () => {
       <div className="news-card-items">
         <div
           className="news-image bg-cover"
-          style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}
+          style={{ backgroundImage: 'url("assets/img/news/details-1.jpg")' }}
         />
         <div className="news-content">
           <h5>
@@ -29,7 +29,7 @@ const NewsSlider = () => {
       <div className="news-card-items">
         <div
           className="news-image bg-cover"
-          style={{ backgroundImage: 'url("assets/img/news/04.jpg")' }}
+          style={{ backgroundImage: 'url("assets/img/news/details-2.jpg")' }}
         />
         <div className="news-content">
           <h5>
@@ -46,7 +46,7 @@ const NewsSlider = () => {
       <div className="news-card-items">
         <div
           className="news-image bg-cover"
-          style={{ backgroundImage: 'url("assets/img/news/05.jpg")' }}
+          style={{ backgroundImage: 'url("assets/img/news/details-3.jpg")' }}
         />
         <div className="news-content">
           <h5>
@@ -63,7 +63,7 @@ const NewsSlider = () => {
       <div className="news-card-items">
         <div
           className="news-image bg-cover"
-          style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}
+          style={{ backgroundImage: 'url("assets/img/news/details-4.jpg")' }}
         />
         <div className="news-content">
           <h5>

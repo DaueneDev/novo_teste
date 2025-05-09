@@ -49,7 +49,7 @@ const page = () => {
                          senectus et netus et malesuada fames ac turpis egestas.
                       </p>
                       <img
-                        src="assets/img/news/post-4.jpg"
+                        src="assets/img/news/post-3.jpg"
                         alt="blog__img"
                         className="single-post-image"
                       />

@@ -300,7 +300,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/01.jpg" alt="team-img" />
+                    <img src="assets/img/team/05.jpg" alt="team-img" />
                   </div>
                   <div className="team-content text-center">
                   <p>Departamento De</p>
@@ -316,7 +316,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/02.jpg" alt="team-img" />
+                    <img src="assets/img/team/06.jpg" alt="team-img" />
                   </div>
                   <div className="team-content text-center">
                   <p>Departamento</p>
@@ -332,7 +332,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/03.jpg" alt="team-img" />
+                    <img src="assets/img/team/07.jpg" alt="team-img" />
                   </div>
                   <div className="team-content text-center">
                   <p>Depertamento De</p>
@@ -360,7 +360,7 @@ const page = () => {
         <div className="container">
           <div className="cta-parallax-wrapper text-center">
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Precisa De Água Potável Canalizada Em Sua Casa?
+              Canalizamos Água Potável Até A Sua Casa?
             </h2>
             <div className="button-items">
               <Link
@@ -444,9 +444,6 @@ const page = () => {
       </section>
       {/*<< Faq Section Start >>*/}
       <section className="faq-section fix section-padding">
-        <div className="faq-image">
-          <img src="assets/img/faq.png" alt="img" />
-        </div>
         <div className="faq-shape">
           <img src="assets/img/faq-shape-1.png" alt="shape-img" />
         </div>
@@ -488,7 +485,7 @@ const page = () => {
               <div className="news-box-items">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/01.jpg")' }}
+                  style={{ backgroundImage: 'url("assets/img/news/post-1.jpg")' }}
                 />
                 <div className="news-content">
                   <h4>
@@ -523,11 +520,11 @@ const page = () => {
               <div className="news-box-items">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/02.jpg")' }}
+                  style={{ backgroundImage: 'url("assets/img/news/post-2.jpg")' }}
                 />
                 <div className="news-content">
                   <h4>
-                    <Link href="news-details+">
+                    <Link href="news-details">
                       Como Receber Descontos Na Factura De Água Todos Meses
                     </Link>
                   </h4>
@@ -545,7 +542,7 @@ const page = () => {
                   Confira Estratégias Práticas Para Reduzir 
                   O Valor Da Sua Fatura De Água Todos Os Meses
                   </p>
-                  <Link href="news-details+" className="link-btn style-2">
+                  <Link href="news-details" className="link-btn style-2">
                     Leia Mais <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -558,11 +555,11 @@ const page = () => {
               <div className="news-box-items">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}
+                  style={{ backgroundImage: 'url("assets/img/news/post-3.jpg")' }}
                 />
                 <div className="news-content">
                   <h4>
-                    <Link href="news-details+">
+                    <Link href="news-details">
                       Como Funciona O Sistema De Água Canalizada
                     </Link>
                   </h4>

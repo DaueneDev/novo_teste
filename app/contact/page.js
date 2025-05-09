@@ -18,9 +18,9 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-                  Nossa equipe oferece suporte técnico e soluções personalizadas para
-                   garantir acesso contínuo a água potável. Entre em contato conosco 
-                   para saber mais sobre nossos serviços e como podemos ajuda-lo.
+                    Nossa equipe oferece suporte técnico e soluções personalizadas para
+                    garantir acesso contínuo a água potável. Entre em contato conosco
+                    para saber mais sobre nossos serviços e como podemos ajuda-lo.
                   </p>
                   <div className="row g-4 mt-3">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
@@ -31,8 +31,8 @@ const page = () => {
                         <div className="content">
                           <h5>Endereço</h5>
                           <p>
-                           Bairro Malí, Marracuene, <br />
-                           Moçambique
+                            Bairro Malí, Marracuene, <br />
+                            Moçambique
                           </p>
                         </div>
                       </div>
@@ -57,11 +57,11 @@ const page = () => {
                         <div className="content">
                           <h5>Email</h5>
                           <a href="mailto:info@example.com" className="link">
-                          geral@aguademali.co.mz
+                            geral@aguademali.co.mz
                           </a>{" "}
                           <br />
                           <a href="mailto:info@example.com" className="link">
-                          info@aguademali.co.mz
+                            info@aguademali.co.mz
                           </a>
                         </div>
                       </div>
@@ -106,8 +106,8 @@ const page = () => {
                       Preencha o Formulário
                     </h3>
                     <p className="wow fadeInUp" data-wow-delay=".5s">
-                    Seu endereço de e-mail não será publicado. Os 
-                    campos obrigatórios estão marcados com *.
+                      Seu endereço de e-mail não será publicado. Os
+                      campos obrigatórios estão marcados com *.
                     </p>
                   </div>
                   <form action="contact.php" id="contact-form" method="POST">

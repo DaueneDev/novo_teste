@@ -143,7 +143,7 @@ const Menus = ({ single, menus }) => {
                   </div>
                   <div className="col-lg-3  homemenu">
                     <div className="homemenu-thumb mb-15">
-                      <img src="assets/img/header/home-2.jpg" alt="img" />
+                      <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
                         <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>
@@ -156,7 +156,7 @@ const Menus = ({ single, menus }) => {
                   </div>
                   <div className="col-lg-3 homemenu">
                     <div className="homemenu-thumb mb-15">
-                      <img src="assets/img/header/home-3.jpg" alt="img" />
+                      <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
                         <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>
@@ -169,7 +169,7 @@ const Menus = ({ single, menus }) => {
                   </div>
                   <div className="col-lg-3 homemenu">
                     <div className="homemenu-thumb mb-15">
-                      <img src="assets/img/header/home-4.jpg" alt="img" />
+                      <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
                         <Link href="Sucursal" className="theme-btn">
                           <span>Ver</span>

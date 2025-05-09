@@ -42,7 +42,7 @@ const page = () => {
       {/*<< Feature Video Section Start >>*/}
       <section
         className="feature-video-section fix section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/video_bg.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/video_bg-Copy.jpg")' }}
       >
         <div className="container">
           <div className="feature-video-wrapper">

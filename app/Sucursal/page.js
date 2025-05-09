@@ -44,7 +44,7 @@ const page = () => {
                       <i className="fas fa-star" />
                     </a>
                   </div>
-                  <h3>Sucursal de Bobole</h3>
+                  <h3>Sucursal de Boane</h3>
                   <p>
                     hshsgdgd ,soojf nsygn ahytdhd ,hshsgdgd ,soojf nsygnd sjs
                     hshsgdgd ,soojf nsygn ahytdhd ,hshsgdgd ,soojf nsygn as
@@ -152,14 +152,6 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/*<< Brand Section Start >>*/}
-      <div className="brand-section-2 fix section-bg-2 mt-0">
-        <div className="container">
-          <div className="brand-wrapper style-2">
-            <BrandSlider />
-          </div>
-        </div>
-      </div>
     </NetBandLayout>
   );
 };

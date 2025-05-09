@@ -25,7 +25,7 @@ const page = () => {
             </h2>
             <div className="video-box wow fadeInUp" data-wow-delay=".5s">
               <a
-                href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
+                href="https://www.youtube.com/watch?v=ZPEDIqYJyM4"
                 className="video-btn ripple video-popup"
               >
                 <i className="fas fa-play" />
@@ -112,11 +112,11 @@ const page = () => {
             >
               <div className="single-team-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="team-img" />
+                  <img src="assets/img/team/05.jpg" alt="team-img" />
                 </div>
                 <div className="team-content text-center">
                   <h5>
-                    <Link href="about">Técnico</Link>
+                    <Link href="about">Logística</Link>
                   </h5>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const page = () => {
             >
               <div className="single-team-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="team-img" />
+                  <img src="assets/img/team/06.jpg" alt="team-img" />
                 </div>
                 <div className="team-content text-center">
                   <h5>
@@ -142,7 +142,7 @@ const page = () => {
             >
               <div className="single-team-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/04.jpg" alt="team-img" />
+                  <img src="assets/img/team/07.jpg" alt="team-img" />
                 </div>
                 <div className="team-content text-center">
                   <h5>
@@ -156,9 +156,6 @@ const page = () => {
       </section>
       {/*<< Faq Section Start >>*/}
       <section className="faq-section fix section-padding">
-              <div className="faq-image">
-                <img src="assets/img/faq.png" alt="img" />
-              </div>
               <div className="faq-shape">
                 <img src="assets/img/faq-shape-1.png" alt="shape-img" />
               </div>
