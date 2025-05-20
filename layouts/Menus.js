@@ -263,19 +263,19 @@ export const MobileMenu = ({ menus, single }) => {
           <ul onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")} className="submenu" style={activeLi("home")}>
             <li>
-              <Link href="/" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="Sucursal" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Boane</Link>
             </li>
             <li>
-              <Link href="index+-2" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="Sucursal" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Kumbeza</Link>
             </li>
             <li>
-              <Link href="index+-3" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="Sucursal" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Mavoko</Link>
             </li>
             <li>
-              <Link href="index+-4" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
+              <Link href="Sucursal" onMouseEnter={(e) => (e.target.style.color = "#0367A0")}
       onMouseLeave={(e) => (e.target.style.color = "#049DBF")}>Sucursal De Marracuene</Link>
             </li>
           </ul>

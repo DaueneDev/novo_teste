@@ -489,7 +489,7 @@ const page = () => {
                 />
                 <div className="news-content">
                   <h4>
-                    <Link href="news-details+">
+                    <Link href="news-details">
                       5 Dicas Para Economizar Água 
                     </Link>
                   </h4>
@@ -507,7 +507,7 @@ const page = () => {
                   Aprenda Maneiras Simples E Eficazes De Reduzir
                    O Consumo De Água No Dia A Dia.
                   </p>
-                  <Link href="news-details+" className="link-btn style-2">
+                  <Link href="news-details" className="link-btn style-2">
                     Leia Mais <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -556,7 +556,9 @@ const page = () => {
                 <div
                   className="news-image bg-cover"
                   style={{ backgroundImage: 'url("assets/img/news/post-3.jpg")' }}
-                />
+                >
+                  <Link href="news-details"/>
+                </div>
                 <div className="news-content">
                   <h4>
                     <Link href="news-details">
@@ -577,7 +579,7 @@ const page = () => {
                   Entenda Todo O Processo, Desde A Captação Da Água
                   Até Ela Chegar Tratada À Torneira Da Sua Casa.
                   </p>
-                  <Link href="news-details+" className="link-btn style-2">
+                  <Link href="news-details" className="link-btn style-2">
                     Leia Mais <i className="fas fa-chevron-right" />
                   </Link>
                 </div>

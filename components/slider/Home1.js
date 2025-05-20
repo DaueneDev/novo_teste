@@ -57,7 +57,7 @@ const Home1 = () => {
                     data-delay="1.0s"
                     data-duration=".1s"
                   >
-                    Garantimos Água Potável  <br /> Na Tua Casa 24H/Dia
+                    Garantimos Água Potável Na Tua Casa 24H/Dia
                   </h1>
                   <p
                     data-animation="fadeInUp"
